@@ -17,4 +17,10 @@ app.listen(3200, function(err) {
     return;
   }
   console.log('Listening at http://localhost:3200');
+  
 });
+    border-bottom:  none !important;
+    border-top:  none !important;
+    border-right:  none !important;
+    border-left:  3px solid #e4e4e4 !important;
+    background:  #f4f4f4;

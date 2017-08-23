@@ -4,17 +4,24 @@ import {render} from 'react-dom'
 let Word = React.createClass({
 
     getInitialState: function() {
-        return { text:"fff" } 
-    },
-    componentDidMount:function(){
 
+        return { text:"这是word" } 
     },
+
+    componentDidMount:function(){
+        
+    },
+
     render: function() {
        
-      return (
-        <div>{this.state.text}</div>
+        return (
+            
+            <div>
+                <h5>{this.state.text}</h5>
+                <h5>good</h5>
+            </div>
         
-         )
+        )
     }
 })
 

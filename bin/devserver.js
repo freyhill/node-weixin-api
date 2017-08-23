@@ -6,18 +6,20 @@ var config = require('../webpack.config.dev');
 var app = express();
 var compiler = webpack(config);
 
-app.use(require('webpack-dev-middleware')(compiler, {
-  noInfo: true,
-  publicPath: config.output.publicPath
+var webpackDevMiddleware = require("webpack-dev-middleware");
+
+app.use(webpackDevMiddleware(compiler, {
+  noInfo: true, //false将打印编译信息（建议true，false会打印很多信息）
+  publicPath: config.output.publicPath //绑定middleware
 }));
 
-app.use(require('webpack-hot-middleware')(compiler));
+var webpackHotMiddleware = require('webpack-hot-middleware');
+app.use(webpackHotMiddleware(compiler));
  
 //app.use('/public',express.static(path.resolve(__dirname, '../public')));
 
-
 app.get('*', function(req, res) {
-  res.sendFile(path.resolve(__dirname, '../index.html'));
+  res.sendFile(path.resolve(__dirname, '../index.html')); //
 });
 
 app.listen(3100, function(err) {

@@ -1,7 +1,7 @@
 {
   "name": "react-hmr-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "react-hmr-demo",
   "main": "index.js",
   "scripts": {
     "dev": "node bin/devserver.js",
@@ -12,12 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/leinov/react-hmr-demo.git"
   },
-  "author": "",
+  "author": "leinov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leinov/react-hmr-demo/issues"
-  },
-  "homepage": "https://github.com/leinov/react-hmr-demo#readme",
   "dependencies": {
     "express": "^4.15.4",
     "react": "^15.6.1",

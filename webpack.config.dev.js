@@ -1,20 +1,18 @@
 var path = require('path');
 var webpack = require('webpack');
-
+ 
 module.exports = {
-    devtool: 'cheap-module-eval-source-map',
+    devtool: 'cheap-module-eval-source-map',//打包构建信息
     entry: [
 
-        'eventsource-polyfill',
-        'webpack-hot-middleware/client',
-        // 需要编译的js对应上面的devjs
+        'eventsource-polyfill',//for IE
+        'webpack-hot-middleware/client',//webpack服务连接到浏览器接收更新
+        
         './src/index.js'
     ],
     output: {
-
-        //path: path.join(__dirname, 'public/dist'),
         filename: 'boundle.js',
-        publicPath: '/dist/js/'
+        publicPath: '/dist/js/' 
     },
     module: {
 
@@ -38,7 +36,7 @@ module.exports = {
     } ,
     resolve:{
         alias: {
-            css: path.resolve(__dirname, 'public/static/css/'),
+            css: path.resolve(__dirname, 'public/static/css/'), //css目录别名
         }
     },
     plugins: [
