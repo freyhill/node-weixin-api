@@ -2,6 +2,7 @@
 
 ## 概览
 
+
  key |value
 ---|---
 项目名称 | node微信公众号开发
@@ -29,6 +30,9 @@ npm install
 * 上传到服务器
 * ```pm2 start www.js```启动服务
 * 在微信里打开连接分享给好友测试
+
+
+
 
 ## 架构
 
@@ -70,3 +74,7 @@ npm install
     |-- webpack.config.js //webpack配置文件
     |-- www.js //生产启动程序
 ```
+具体见代码
+
+## 参考
+* [微信公众号开发文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)
