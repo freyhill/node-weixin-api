@@ -1,0 +1,315 @@
+
+/*
+ * 主色调
+ */
+.main_color{
+  color:#3EC16C;
+}
+.main_bg_color{
+  background:#3EC16C;
+}
+
+/*
+ * 背景色
+ */
+.bgc_fff{
+  background-color: #fff;
+}
+.bgc_FFC10C{
+  background-color: #FFC10C;
+}
+.flex2{
+  flex:2;
+}
+.flex3{
+  flex:3;
+}
+/*
+ * 字体颜色
+ */
+
+.c_fff{
+  color: #fff;
+}
+.c_333{
+  color: #333;
+}
+.c_666{
+  color: #666;
+}
+.c_999{
+  color:#999;
+}
+.c_8994A2{
+  color:#8994A2;
+}
+.c_4C556E{
+  color:#4C556E;
+}
+.c_2D2E38{
+  color:#2D2E38;
+}
+.c_C3C9D0{
+  color:#C3C9D0;
+}
+.c_030303{
+  color:#030303;
+}
+.c_363846{
+  color:#363846;
+}
+.c_828597{
+  color:#828597;
+}
+.c_8E909E{
+  color:#8E909E;
+}
+/*
+ * margin
+ */
+ .mg-auto{
+   margin:auto;
+ }
+ .mb5{
+   margin-bottom: 5px;
+ }
+ .mb10{
+   margin-bottom: 10px;
+ }
+ .mb20{
+   margin-bottom: 20px;
+ }
+ .mb30{
+   margin-bottom: 30px;
+ }
+ .mb40{
+   margin-bottom: 40px;
+ }
+ .mr12{
+    margin-right: 12px;
+ }
+ .mr10{
+    margin-right: 10px;
+ }
+ .mr20{
+    margin-right: 20px;
+ }
+ .ml5{
+   margin-left: 5px;
+ }
+ .ml10{
+   margin-left: 10px;
+ }
+ .ml20{
+   margin-left: 20px;
+ }
+ .ml30{
+   margin-left: 30px;
+ }
+ .ml40{
+   margin-left: 40px;
+ }
+
+ .mt2{
+    margin-top: 2px;
+ }
+ .mt5{
+   margin-top: 5px;
+ }
+ .mt10{
+   margin-top: 10px;
+ }
+ .mt15{
+   margin-top: 15px;
+ }
+ .mt20{
+   margin-top: 20px;
+ }
+ .mt22{
+   margin-top: 22px;
+ }
+ .mt24{
+   margin-top: 24px;
+ }
+ .mt25{
+   margin-top: 25px;
+ }
+ .mt30{
+   margin-top: 30px;
+ }
+ .mt40{
+   margin-top: 40px;
+ }
+ .mt60{
+   margin-top: 60px;
+ }
+ .mt70{
+   margin-top: 60px;
+ }
+/*
+ * border-radius
+ */
+.border-radius100{
+  border-radius: 100px;
+}
+/*
+ * ［padding］
+ */
+.pd5{
+   padding:5px;
+ }
+.pd10{
+   padding:10px;
+ }
+.pd20{
+  padding:20px;
+}
+.pd30{
+  padding:30px;
+}
+.pdr20{
+  padding-right: 20px;
+}
+.pdl10{
+ padding-left: 10px;
+}
+
+/*
+ * ［字体大小］
+ */
+ .font16{
+   font-size: 16px;
+ }
+ .font18{
+   font-size: 18px;
+ }
+ .font20{
+   font-size: 20px;
+ }
+ .font22{
+   font-size: 22px;
+ }
+ .font24{
+   font-size: 24px;
+ }
+ .font28{
+   font-size: 28px;
+ }
+ .font30{
+   font-size: 30px;
+ }
+ .font32{
+   font-size: 32px;
+ }
+ .font34{
+   font-size: 34px;
+ }
+ .font36{
+   font-size: 36px;
+ }
+ .font38{
+   font-size: 38px;
+ }
+ .font40{
+   font-size: 40px;
+ }
+ .font42{
+   font-size: 42px;
+ }
+
+ .font58{
+   font-size: 58px;
+ }
+ .font46{
+   font-size: 46px;
+ }
+ .bold{
+   font-weight: bold;
+ }
+ .font-weight500{
+   font-weight: 500;
+ }
+
+ /*
+  * positioin 定位
+  */
+  .rel{
+    position: relative;
+  }
+  .abs{
+    position: absolute;
+  }
+  .fixed{
+    position: fixed;
+  }
+  .abscenter{
+    left:0;
+    top:0;
+    margin:auto;
+    right:0;
+    bottom:0;
+  }
+ /**
+  * [居中]
+  */
+  .all-center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vertical-center{
+    display: flex;
+    align-items: center;
+  }
+  .vam{
+    vertical-align: middle;
+  }
+  /**
+   * [浮动]
+   */
+  .fleft{
+    float: left;
+  }
+  .fright{
+    float: right;
+  }
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+ /**
+  * [特殊]
+  */
+  .nodata{
+    text-align: center;
+    color:#8F949B;
+    height: 1000rpx;
+    line-height: 1000px;
+  }
+  .textright{
+    text-align: right;
+  }
+  .textleft{
+    text-align: left;
+  }
+  .textcenter{
+    text-align: center;
+  }
+  .align-center{
+    align-items:center;
+  }
+ .vam{
+   vertical-align:middle;
+ }
+ .text-underline{
+  text-decoration: underline;
+ }
+ button::after{
+    border:0;
+ }

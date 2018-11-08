@@ -1,0 +1,26 @@
+@import "../style.scss";
+@import "../../node_modules/bulma/bulma.sass";
+body{
+  background: #fff;
+}
+
+.center{
+  text-align: center;
+}
+.pd20{
+  padding:20px;
+}
+.pd40{
+  padding:40px;
+}
+.font28{
+  font-size: 28px;
+}
+.title{
+  font-size: 32px;
+}
+.node-weixin{
+  background: #f0f0f0;
+  width: 80%;
+  margin:auto;
+}
