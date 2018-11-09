@@ -2,13 +2,14 @@
 
 ## 概览
 
- | key |value|
+| key |value|
 |---|---|
 项目名称 | node微信公众号开发
 项目描述|使用node编写接口，前后端分离获取签名数据
 开发者 | leinov
 发布日期|2018-11-07
 仓库 | [github地址](https://github.com/leinov/node-weixin-api)
+
 ## 安装&使用
 
 ##### 下载
